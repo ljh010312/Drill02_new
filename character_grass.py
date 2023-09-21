@@ -35,7 +35,11 @@ def run_rectangle():
     # top line
     for x in range(750, 50 - 1, -5):
         render_frame(x, 550)
-    
+
+    # left line
+    for y in range(550, 90 - 1, -5):
+        render_frame(50, y)
+        
 
 while True:
     # run_circle()
